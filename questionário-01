@@ -1,1 +1,147 @@
+1- De acordo com as fontes, quais dos seguintes são listados como tipos integrados (built-in types) com suporte especial na linguagem Dart?
+
+B) Numbers, Strings, Booleans, Lists, Sets, Maps
+
+
+2- Na linguagem Dart, qual o papel principal da classe Object?
+
+C) A superclasse de todas as classes Dart, exceto Null.
+
+3- O que o tipo dynamic indica em Dart?
+
+B) Que você quer desabilitar a verificação estática.
+
+4- Segundo as fontes, como é a herança em Dart?
+
+C) É um objeto-orientado com classes e herança baseada em mixins.
+
+
+5- Qual a finalidade do uso da palavra-chave static para variáveis em uma classe Dart?
+
+C) Para implementar variáveis e métodos de escopo de classe.
+
+
+6- Qual a principal finalidade do modificador de classe sealed introduzido no Dart 3?
+
+B) Garantir que um switch sobre os subtipos seja estaticamente .
+
+
+7- Onde uma classe marcada com o modificador sealed pode ser estendida ou implementada?
+
+B) Apenas na mesma biblioteca onde a classe selada é definida.
+
+8- Como você cria um literal de conjunto (set literal) que é uma constante de tempo de compilação em Dart?
+
+B) Usando a palavra-chave const antes do literal.
+
+
+9- Em Dart, quais métodos podem ser usados para adicionar múltiplos itens a um conjunto (Set) existente?
+
+C) Os métodos add() ou addAll().
+
+
+10- Qual a finalidade do operador spread (...) ao construir coleções em Dart?
+
+C) Para descompactar os valores de uma expressão que produz uma coleção e inseri-los em outra coleção.
+
+
+11- O que faz o operador spread com reconhecimento de nulo (...?)?
+
+B) Ele insere os valores da coleção se a expressão à direita não for nula, evitando exceções se for nula.
+
+
+12- Quais são os operadores "collection if" e "collection for" usados para em Dart?
+
+B) Para aplicar condicionais (if) e repetição (for) diretamente dentro de literais de lista, mapa e conjunto.
+
+
+13- Em Dart, como os parâmetros nomeados são definidos na assinatura de uma função?
+
+C) Usando chaves ({}).
+
+
+14- Como você torna um parâmetro nomeado obrigatório em Dart?
+
+C) Anotando-o com a palavra-chave required.
+
+
+15- Qual o papel essencial da função main() em um aplicativo Dart?
+
+B) Serve como o ponto de entrada para o aplicativo.
+
+
+16- Dart trata funções como objetos de primeira classe (first-class objects). O que isso significa?
+
+B) Funções podem ser passadas como parâmetros para outras funções ou atribuídas a variáveis.
+
+
+
+
+17- O que é um "tear-off" em Dart?
+
+C) Uma closure criada quando você se refere a uma função, método ou construtor nomeado sem parênteses.
+
+
+
+
+18- Quais são as duas ações principais que os padrões realizam em Dart?
+
+B) Matching (correspondência) e Destructuring (desestruturação).
+
+
+19- Para que é usado um padrão em Dart?
+
+C) Em declarações de variáveis ou atribuições onde o valor corresponder ao padrão, caso contrário, ocorre um erro.
+
+
+20- Para que é usado um padrão em Dart?
+
+A) Em declarações de variáveis ou atribuições.
+
+21- Quais contextos de fluxo de controle em Dart permitem o uso de padrões para decidir o que o código faz, dependendo da correspondência?
+
+B) Instruções if-case, instruções switch e expressões switch.
+
+
+22- Na sintaxe de padrão de registro (title, :modified), qual é o propósito da sintaxe :modified?
+
+A) Declara uma nova variável local chamada modified e vincula o campo nomeado modified do registro a ela.
+
+
+23- Como a sintaxe para definir um registro (record) se apresenta em Dart?
+
+C) Uma lista de campos delimitados por vírgulas e colocados entre parênteses (()).
+
+24- De acordo com as fontes, qual é um benefício chave de usar registros para o retorno de funções?
+
+B) Eles fornecem uma maneira leve e fácil de retornar múltiplos valores de diferentes tipos a partir de uma única chamada de função.
+
+
+25- Dado o registro var record = ('a', b: 2, 'c');, como você acessaria o campo posicional com o valor 'c'?
+
+B) record.$2
+
+26- Dado o registro var record = ('a', b: 2, 'c');, como você acessaria o campo nomeado com o valor 2?
+
+C) record.b
+
+
+27- O que é uma instrução if-case introduzida no Dart 3?
+
+B) Uma instrução if que executa seu corpo apenas se um padrão corresponder aos dados, realizando validação e desestruturação.
+
+
+28- Qual a principal diferença entre uma instrução switch aprimorada e uma expressão switch em Dart?
+
+C) Instruções switch controlam o fluxo de execução, enquanto expressões switch retornam um valor e podem ser usadas onde uma expressão é esperada.
+
+
+29- Para que é usado o padrão curinga (_) em um caso switch ou declaração de variável padrão?
+
+B) Para corresponder a tudo e descartar o valor correspondente sem vinculá-lo a uma variável.
+
+
+30- O que é uma cláusula de guarda (when) em Dart, usada com padrões?
+
+B) Uma condição adicional que é avaliada que um padrão de caso corresponde; se a guarda for falsa, o padrão inteiro é refutado.
 
